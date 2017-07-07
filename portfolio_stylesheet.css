@@ -1,0 +1,28 @@
+body{
+	background-image: url("desk.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	color: white;
+
+	
+}
+
+.right{
+	position: absolute;
+	right: 0px;
+	width: 400px;
+	padding: 10px; 
+
+}
+.center{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+.white{
+	color: white;
+}
