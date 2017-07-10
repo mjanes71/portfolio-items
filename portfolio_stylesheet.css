@@ -1,11 +1,9 @@
 body{
-	background-image: url("desk.jpg");
+	
+	background-image: url("hero1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	
 	color: white;
-
-	
 }
 
 .right{
@@ -15,13 +13,21 @@ body{
 	padding: 10px; 
 
 }
+
 .center{
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	
+				
+}
+.under{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, +200%);
+	text-align: center;
 }
 .white{
 	color: white;
