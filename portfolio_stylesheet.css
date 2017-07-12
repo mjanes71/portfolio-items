@@ -41,16 +41,16 @@ h1{
 .white{
 	color: white;
 }
+.black{
+	color: black;
+}
+.well{ 
+	background-color: rgb(105, 225, 243);
+	border-color: white; 
+}
 
 
 /* lists*/
 ul.a{ 
 	list-style-type: circle; 
 }
-
-
-
-	
-
-
-				
