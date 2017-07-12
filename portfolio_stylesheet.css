@@ -1,34 +1,56 @@
+/* Table of Contents
+	1. Home Page
+	2. Portfolio
+	3. Resume
+	4. Hire Me
+	5. Pro Bono
+*/
+
+
+/*1*/ 
+
 body{
-	
-	background-image: url("hero1.jpg");
+	background-image: url("hero1.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	font-family: "Helvetica" sans-serif;
+	font-size: large;
 	color: white;
-}
 
+}
+h1{
+	font-family: "Helvetica" sans-serif;
+	font-size: 40pt;
+}
+/*formatting*/
 .right{
-	position: absolute;
+	position: fixed;
 	right: 0px;
-	width: 400px;
+	width: auto;
 	padding: 10px; 
 
 }
 
-.center{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-				
+.padding{
+	padding: 20px;
 }
-.under{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, +200%);
-	text-align: center;
+.padding_large{
+	padding-top: 200px;
+}
 }
 .white{
 	color: white;
 }
+
+
+/* lists*/
+ul.a{ 
+	list-style-type: circle; 
+}
+
+
+
+	
+
+
+				
